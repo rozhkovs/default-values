@@ -56,6 +56,11 @@ const ParentComponent = () => {
 ```
 For such cases, the library provides various typical variables that can be used as default values.
 
+## Includes
+- empty array: 'EMPTY_ARRAY' or 'E_ARR';
+- empty object: 'EMPTY_OBJECT' or 'E_OBJ';
+- empty callback: 'EMPTY_CALLBACK' or 'E_CB';
+
 ## 👨‍💻 Author
 [Sergey Rozhkov][AUTHOR]
 
