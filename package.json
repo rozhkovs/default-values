@@ -15,7 +15,8 @@
     "tsc:check": "tsc --noEmit",
     "test:run": "jest",
     "lint:fix": "eslint --fix ./src",
-    "lint:check": "eslint ./src"
+    "lint:check": "eslint ./src",
+    "prepack": "yarn run tsc:build"
   },
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
