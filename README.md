@@ -6,11 +6,11 @@
   <a href="https://github.com/rozhkovs/default-values/blob/HEAD/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Default Values is released under the MIT license." />
   </a>
-  <a href="https://github.com/rozhkovs/defalut-values/actions/workflows/testing.yml">
-    <img src="https://github.com/rozhkovs/defalut-values/actions/workflows/testing.yml/badge.svg" alt="Default values passed the testing" />
+  <a href="https://github.com/rozhkovs/default-values/actions/workflows/testing.yml">
+    <img src="https://github.com/rozhkovs/default-values/actions/workflows/testing.yml/badge.svg" alt="Default values passed the testing" />
   </a>
-  <a href="https://www.npmjs.com/package/defalut-values">
-    <img src="https://img.shields.io/npm/v/defalut-values?color=brightgreen&label=npm%20package" alt="Current npm package version." />
+  <a href="https://www.npmjs.com/package/default-values">
+    <img src="https://img.shields.io/npm/v/default-values?color=brightgreen&label=npm%20package" alt="Current npm package version." />
   </a>
 </p>
 
