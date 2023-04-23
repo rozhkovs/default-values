@@ -1,0 +1,51 @@
+{
+  "name": "default-values",
+  "description": "Frequent default values",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "yarn@3.3.1",
+  "sideEffect": false,
+  "repository": "github:rozhkovs/default-values",
+  "author": "Sergey Rozhkov <rozhkovse1@gmail.com> (https://github.com/rozhkovs)",
+  "scripts": {
+    "check-all": "yarn run tsc:check && yarn run lint:check",
+    "tsc:module": "tsc --module es6 --outDir ./dist/module",
+    "tsc:commonjs": "tsc --module commonjs --outDir ./dist/commonjs",
+    "tsc:build": "rm -rf ./dist && yarn run tsc:module && yarn run tsc:commonjs",
+    "tsc:check": "tsc --noEmit",
+    "test:run": "jest",
+    "lint:fix": "eslint --fix ./src",
+    "lint:check": "eslint ./src"
+  },
+  "main": "dist/commonjs/index.js",
+  "module": "dist/module/index.js",
+  "types": "dist/typescript/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "dist",
+    "!**/__tests__"
+  ],
+  "keywords": [
+    "empty",
+    "freeze",
+    "react",
+    "react native",
+    "object",
+    "callback",
+    "function",
+    "array",
+    "default-values"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "8.20.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.7",
+    "typescript": "^4.9.5"
+  }
+}
