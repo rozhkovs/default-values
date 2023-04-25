@@ -32,6 +32,7 @@
     "freeze",
     "react",
     "react native",
+    "stable-references",
     "object",
     "callback",
     "function",
