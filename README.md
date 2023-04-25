@@ -26,6 +26,11 @@ For **yarn**
 yarn add default-values
 ```
 
+## Includes
+- empty array: 'EMPTY_ARRAY' or 'E_ARR';
+- empty object: 'EMPTY_OBJECT' or 'E_OBJ';
+- empty callback: 'EMPTY_CALLBACK' or 'E_CB';
+
 ## What's the problem?
 We all use some default values. And we can do it as follows:
 ```typescript
@@ -50,16 +55,11 @@ import {EMPTY_ARRAY} from 'default-values'
 
 const ParentComponent = () => {
   // ...
-  const list = listOrNull ?? EMPTY_ARRAY; // EMPTY_ARRAY instend of [];
+  const list = listOrNull ?? EMPTY_ARRAY; // EMPTY_ARRAY instead of [];
   return <MemoHeavyList list={list} />
 }
 ```
 For such cases, the library provides various typical variables that can be used as default values.
-
-## Includes
-- empty array: 'EMPTY_ARRAY' or 'E_ARR';
-- empty object: 'EMPTY_OBJECT' or 'E_OBJ';
-- empty callback: 'EMPTY_CALLBACK' or 'E_CB';
 
 ## 👨‍💻 Author
 [Sergey Rozhkov][AUTHOR]
